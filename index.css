@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --- CONTENEDOR PRINCIPAL --- */
+
+.log{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+}
+
+/* --- TITULO --- */
+
+.titulo{
+    text-align: center;
+}
+
+/* --- FORMULARIO --- */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+/* --- INPUTS --- */
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+input{
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #CDCACA;
+    background-color: #F5F5F5;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #CDCACA
+}
+
+input::placeholder{
+    color: #CDCACA;
+}
+
+/* --- BOTONES --- */
+
+.boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+button{
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #CDCACA;
+}
+
+.boton .login{
+    background-color: #39810D;
+    border: none;
+    color: white;
+}
+
+.boton .login_google{
+    color: #CDCACA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* --- CONTENEDOR IMAGEN --- */
+
+.img{
+    flex: 2;
+}
+
+.img img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: top;
+}
